@@ -222,80 +222,89 @@
     width:92%;
     margin:10px;
     padding:3px;
-    background-color:#FFF;
+    background-color:#fff;
     border:1px solid #CCC
 }
 
 /* End Portfolio */
 
-/* Start Conact Me */
+/* Start contact Me */
 
-.contact {
-    background-color:#252F31;
+.contact 
+{
+    background-color:#000;
     overflow:hidden;
     padding-top:50px;
-    padding-bottom:70px
+	font-size: 30px;
+    padding-bottom:10px
+	color: #fff;
 }
 
-.contact .info {width:50%;margin-right:5%}
+.contact .info 
+{
+	
+	text-align: center
+	
+	}
 
-.contact h2 {color:#FFF;margin-left:40px}
-
-.contact p {color:#6A6E71;margin-left:40px}
-
-.contact p strong {color:#D1D6DA}
-
-.contact .form {width:45%}
-
-.contact .form label {display:block;color:#D1D6DA;margin:10px 0}
-
-.contact .form input[type="text"] {
-    background-color:#4B5557;
-    color:#FFF;
-    padding:10px;
-    border:0;
-    width:80%;
-    margin-bottom:10px
+.contact h2 
+{
+	color:#FFF;
+	margin: auto
 }
 
-.contact .form textarea {
-    background-color:#4B5557;
-    color:#FFF;
-    padding:10px;
-    border:0;
-    width:80%;
-    margin-bottom:10px;
-    height:300px
+.contact p 
+{
+	color:#6A6E71;
+	margin: 0px auto
+}
+.contact a p
+{
+	color: #fff;
+	font-weight: bold;
+	
+	
 }
 
-.contact .form input[type="submit"] {
-    background-color:#191E22;
-    color:#FFF;
-    padding:10px 20px;
-    border:0;
-    margin-top:10px
-}
+.contact a 
+	{
+		color: #fff;
+		text-decoration:none;
+		
+	}
 
+.contact ul li 
+{
+	display: inline-block;
+	;
+	margin: 2px 0px;
+}
+.contact ol li
+{
+	color: #fff;
+	margin: 10px 0 0 0;
+	
+	
+}
+ 
 /* End Contact Me */
 
 /* Start Footer */
 
-.footer {
-    background-color:#191E22;
-    color:#6A6E71;
-    padding:20px 0;
-    text-align:center;
-    overflow:hidden
-}
 
-.footer ul {
-    list-style:none;
-    padding-left:0;
-    margin:0;
-    float:right
-}
 
-.footer ul li {display:inline-block}
+
+
+footer 
+{
+		color: #777;
+		background: #000;
+		padding: 10px 0;
+		text-align: center;
+		font-weight: bold;
+		
+	
+}
 
 /* End Footer */
 
