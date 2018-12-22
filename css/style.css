@@ -1,11 +1,10 @@
 /* Start Header */
 
 .header .slider {
-    background-image:url("../images/slider.jpg");
+    background: #34495e;
+	/*background-image:url("../images/slider.jpg");
     -webkit-background-size:cover; /* CSS3 */
     -moz-background-size:cover; /* CSS3 */
-    -o-background-size:cover; /* CSS3 */
-    background-size:cover; /* CSS3 */
     height:600px
 }
 
@@ -309,6 +308,10 @@ footer
 /* End Footer */
 
 /* Start My Framework */
+ul, ol 
+{
+	list-style: none;
+}
 
 p {line-height:1.7;color:#888}
 
@@ -331,3 +334,35 @@ h2, h3 {color:#777}
 .container {width:1170px;margin:auto}
 
 /* End My Framework */
+/* add new things */
+.eyes{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye{
+  width: 240px;
+  height: 120px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball{
+  width: 40px;
+  height: 40px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 15px solid #333;
+}
+
+
