@@ -7,9 +7,28 @@
         <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
                 <link rel="stylesheet" href="css/style.css">
-    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
     <body>
-        
+        <!-- fade effect -->
+		
+		<script>
+	jQuery('body').css('display','none');
+	jQuery(document).ready(function() {
+		jQuery('body').fadeIn(1000);
+		
+		});
+	
+	setTimeout(function(){
+		jQuery('body').fadeIn();
+	},3000)
+</script>
+
+		<!-- end fade effect -->
+		
+		
+		
+		
         <!-- Start Header -->
         
         <div class="header">
