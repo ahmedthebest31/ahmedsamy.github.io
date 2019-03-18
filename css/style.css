@@ -1,8 +1,9 @@
 /* Start Header */
 
 .header .slider {
-    background: #34495e;
-    height:600px
+    background: url(../images/intro.jpg);
+    background-size: cover;
+    height: 600px;
 }
 
 .header .slider .intro {padding-top:200px;text-align:center;color:#FFF}
@@ -18,16 +19,19 @@
 }
 .header .slider .intro a 
 {
-		color: #fff
+        color: #fff;
+        
 	
 }
 
 .header .slider .intro button {
     background:none;
     margin-top:30px;
-    font-size:20px;
+    font-size:30px;
     border:2px solid #FFF;
     font-weight:bold;
+    
+	
     padding:10px 30px
 }
 
@@ -331,35 +335,9 @@ h2, h3 {color:#777}
 .container {width:1170px;margin:auto}
 
 /* End My Framework */
-/* add new things */
-.eyes{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
-}
-.eye{
-  width: 240px;
-  height: 120px;
-  background: #fff;
-  display: inline-block;
-  margin: 40px;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-}
 
-.ball{
-  width: 40px;
-  height: 40px;
-  background: #000;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  border-radius: 50%;
-  border: 15px solid #333;
+body
+{
+    scroll-behavior: smooth;
+    
 }
-
-
