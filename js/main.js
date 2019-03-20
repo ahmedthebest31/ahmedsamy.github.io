@@ -1,15 +1,20 @@
-var balls = document.getElementsByClassName("ball");
-  document.onmousemove = function(){
-    var x = event.clientX * 100 / window.innerWidth + "%";
-    var y = event.clientY * 100 / window.innerHeight + "%";
-    //event.clientX => get the horizontal coordinate of the mouse
-    //event.clientY => get the Vertical coordinate of the mouse
-    //window.innerWidth => get the browser width
-    //window.innerHeight => get the browser height
+//Option 2 - jQuery Smooth Scrolling
+$('.intro a').on('click', function (e) {
+  if (this.hash !== '') {
+    e.preventDefault();
 
-    for(var i=0;i<2;i++){
-      balls[i].style.left = x;
-      balls[i].style.top = y;
-      balls[i].style.transform = "translate(-"+x+",-"+y+")";
-    }
+    const hash = this.hash;
+
+    $('html, body')
+      .animate({
+        scrollTop: $(hash).offset().top
+      },800);
   }
+});
+
+/*
+ Option 3 - Smooth Scroll - https://github.com/cferdinandi/smooth-scroll
+ const scroll = new SmoothScroll('.navbar a[href*="#"]', {
+	speed: 500
+});
+*/
