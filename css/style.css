@@ -468,8 +468,9 @@ h3 {
 }
 
 .container {
-    width: 1170px;
-    margin: auto
+    max-width: 950px;
+    margin: auto;
+	overflow: hidden;
 }
 
 /* End My Framework */
