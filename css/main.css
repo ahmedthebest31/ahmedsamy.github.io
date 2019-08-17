@@ -172,40 +172,23 @@ body {
   line-height: 1.5;
 }
 
-body#bg-img {
-  background: url(../img/background.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-body#bg-img:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: rgba(68, 68, 68, 0.9);
-}
-
 h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 400;
+  font-weight: 380;
 }
 
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
   padding: 0.2rem 1rem;
   background: rgba(73, 73, 73, 0.5);
 }
